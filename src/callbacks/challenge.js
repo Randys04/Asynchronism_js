@@ -12,7 +12,7 @@ function fetchData(ApiURL, callback){
             }else{
                 const error = new Error("Error" + ApiURL);
                 return callback (error, null);
-            }
+            }   
         }
     }
     xhttp.send();
